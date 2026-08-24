@@ -1,0 +1,10 @@
+Var1 = int (input("Digite um número: "))
+Var2 = int (input("Digite outro número: "))
+
+print(Var1 + Var2)
+print(Var1 - Var2)
+print(Var1 * Var2)
+print(Var1 / Var2)
+print(Var1 // Var2)
+print(Var1 % Var2)
+print(Var1 ** Var2)
