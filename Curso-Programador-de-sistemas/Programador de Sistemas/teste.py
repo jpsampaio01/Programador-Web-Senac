@@ -1,1 +1,0 @@
-print("Testando GIT com alunos")
