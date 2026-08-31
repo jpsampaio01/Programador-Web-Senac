@@ -1,0 +1,12 @@
+.cabeçalho {
+    display: flex;
+    background-color: aquamarine;
+}
+
+.logo{
+    background-color: greenyellow;
+}
+
+.conteudo {
+    background-color: blueviolet;
+}
