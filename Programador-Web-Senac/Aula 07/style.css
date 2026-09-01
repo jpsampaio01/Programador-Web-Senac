@@ -1,0 +1,33 @@
+div {
+    background-color: rgb(105, 5, 199);
+}
+
+.Cabecalho {
+    background-color: rgb(252, 252, 250);
+    color: rgb(8, 8, 8);
+}
+
+
+.Conteudo {
+    background-color: rgb(249, 249, 249);
+    h2 {
+        color: rgb(4, 98, 200);
+        font-size: 50px;
+    }
+    p {
+        color: blue;
+    }
+}
+
+.Menu {
+    background-color: rgb(231, 231, 247);
+    color: rgb(25, 1, 86);
+}
+
+.Rodape {
+    background-color: rgb(251, 251, 251);
+}
+
+body {
+    background-color: rgb(2, 38, 116);
+}
