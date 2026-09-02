@@ -1,33 +1,65 @@
-div {
-    background-color: rgb(105, 5, 199);
+body {
+    background-color: rgb(2, 38, 116);
+    margin: 10px;
+    padding: 5px;
+}
+
+h1 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 50px;
+}
+
+/* header {
+    background-color: white;
+    padding: 10px 200px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+} */
+
+img {
+    height: 200px;
+    width: auto;
 }
 
 .Cabecalho {
-    background-color: rgb(252, 252, 250);
+    background-color: white;
     color: rgb(8, 8, 8);
-}
-
-
-.Conteudo {
-    background-color: rgb(249, 249, 249);
-    h2 {
-        color: rgb(4, 98, 200);
-        font-size: 50px;
-    }
-    p {
-        color: blue;
-    }
+    padding: 10px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .Menu {
-    background-color: rgb(231, 231, 247);
     color: rgb(25, 1, 86);
+    padding: 5px;
 }
 
-.Rodape {
-    background-color: rgb(251, 251, 251);
+.Conteudo {
+    background-color: rgb(254, 254, 254);
+    border-radius: 15px;
 }
 
-body {
-    background-color: rgb(2, 38, 116);
+h2 {
+    color: rgb(4, 98, 200);
+    font-size: 50px;
+    padding: 25px;
+}
+
+.Conteudo p {
+    color: blue;
+    padding: 30px 50px;
+}
+
+
+footer {
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
 }
