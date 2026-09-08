@@ -1,0 +1,83 @@
+body {
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(249, 206, 249);
+    color: rgb(210, 5, 176);
+
+    h1 {
+        text-align: center;
+    }
+
+    ul {
+        color: aliceblue;
+        list-style-type: none;
+        justify-content: center;
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+
+        li {
+            margin: 10px;
+
+            a {
+                color: rgb(210, 5, 176);
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.container {
+    max-width: 900px;
+    text-align: center;
+    border: 20px;
+    padding: 10px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+        #sobre {
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+        }
+
+        #sabores {
+            border-radius: 20px;
+            background-color: rgb(252, 252, 252);
+            h3 {
+                color: rgb(214, 0, 196);
+            }
+
+            .grid-sabores {
+                display: flex;
+                justify-content: center;
+
+                .card-sabor {
+                    background-color:  rgb(249, 206, 249);
+                    color: rgb(20, 1, 1);
+                    border: 2px solid rgb(246, 140, 241);
+                    border-radius: 25px;
+                    margin: 10px;
+                    padding: 25px 15px;
+                }
+            }
+        }
+
+        #contato {
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+        }
+}
+
+footer {
+    background-color: rgb(249, 206, 249);
+    color: rgb(210, 5, 176);
+    text-align: center;
+}
