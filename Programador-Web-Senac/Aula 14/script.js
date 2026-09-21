@@ -3,6 +3,7 @@ const caixaTexto = document.querySelector('#campoNome');
 const botaoDia = document.querySelector('#btnDia')
 const botaoNoite = document.querySelector('#btnNoite')
 const areaResultado = document.querySelector('#painelResultado')
+const elemento = document.querySelector('el')
 
 // PASSO 2 & 3: ESCUTAR E MODIFICAR
 botaoDia.addEventListener('click', function() {
