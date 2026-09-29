@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <h1 id="title">Sistema de Viagens <br> <img src=".\midia\celso.jpg" alt="" width="300px"></h1>
-        <form id="temperatura" method="get">Digite a temperatura atual do seu destino:
-            <label for="graus"></label>
-            <input type="number" id="numero" placeholder="Em Celsius°">
-            <button type="submit">Verificar</button>
-        </form>
-        <h1 id="mensagem"> </h1>
-        <script src="script.js"></script>
+    <div id="Container">
+        <h1>Assistente de Viagem</h1>
+        <p>Digite a temperatura (C°) do seu destino:</p>
+
+        <input type="number" id="tempInput" placeholder="Ex: -5, 18, 32">
+        <button onclick="analisarClima()">Montar Mala</button>
+
+        <img id="fotoClima" src="https://img.magnific.com/vetores-gratis/gradientes-de-icones-de-clima-para-aplicativos_79603-1767.jpg" 
+        alt="Destino de viagem" width="300">
+
+        <div id="output"></div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
