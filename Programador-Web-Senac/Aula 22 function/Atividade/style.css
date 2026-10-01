@@ -1,0 +1,114 @@
+/* Configurações gerais da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+/* Caixa principal */
+.container {
+    background-color: white;
+
+    width: 400px;
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+
+    text-align: center;
+}
+
+
+/* Título */
+h1 {
+    color: #333;
+    margin-bottom: 25px;
+}
+
+
+/* Texto */
+p {
+    color: #555;
+}
+
+
+/* Campos de entrada */
+input {
+    width: 90%;
+
+    padding: 12px;
+
+    margin: 8px 0;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+
+/* Quando o usuário clicar no campo */
+input:focus {
+    border-color: #555;
+}
+
+
+/* Área dos botões */
+.botoes {
+    margin-top: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 10px;
+}
+
+
+/* Botões */
+button {
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #333;
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+/* Quando passar o mouse */
+button:hover {
+    background-color: #555;
+}
+
+
+/* Resultado */
+#resultado {
+    margin-top: 25px;
+
+    padding: 15px;
+
+    background-color: #f0f0f0;
+
+    border-radius: 5px;
+
+    color: #333;
+}
